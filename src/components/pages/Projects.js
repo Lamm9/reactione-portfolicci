@@ -1,13 +1,13 @@
 import React from "react";
-import '../../styles/App.css';
-import BTLogo from '../../assets/BTLogo.png';
-import QVLogo from '../../assets/quizverse-sc.png';
-import TTLogo from '../../assets/Tamp-logo-v2.png';
+import "../../styles/App.css";
+import BTLogo from "../../assets/BTLogo.png";
+import QVLogo from "../../assets/quizverse-sc.png";
+import TTLogo from "../../assets/Tamp-logo-v2.png";
+import GenLogo from "../../assets/GenLogo.png";
 
 export default function Projects() {
   return (
     <div>
-      <link rel="stylesheet" href="../../styles/App.css"></link>
       <div className="container-md mt-5" id="projects">
         <div className="row justify-content-center">
           <h1 className="display-3 text-center text-fancy pb-2">Projects</h1>
@@ -112,7 +112,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="container pb-5">
+        <div className="container">
           <div className="card bg-dark m-3 text-light" id="tamp-card">
             <div
               className="card-header row bg-transparent p-0 m-0 border-0"
@@ -160,6 +160,42 @@ export default function Projects() {
               >
                 <span className="text-warning">Coming soon!</span>
               </a>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="card bg-dark m-3 text-light" id="gen-card">
+            <div
+              className="card-header row bg-transparent border-0"
+              id="gen-head"
+            >
+              <div className="col-auto">
+                <img
+                  src={GenLogo}
+                  alt="README generator logo"
+                  className="rounded float-left"
+                  id="Gen-logo"
+                />
+              </div>
+              <div className="col-md-10 text-center">
+                <h3 className="card-title mt-3 text-light" id="gen-title">
+                  README Generator
+                </h3>
+              </div>
+            </div>
+            <div className="card-body">
+              <div className="row">
+                <div className="text-center">
+                  <h4 className="card-title fw-light mb-1">
+                    A command-line application that generates a README.md file
+                    based on user input.
+                  </h4>
+                  <div id="gen-tech">
+                    <span className="text-success bg-dark">Node.js</span>
+                    <span className="text-warning bg-dark">JavaScript</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
