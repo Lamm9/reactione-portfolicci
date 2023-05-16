@@ -1,4 +1,8 @@
 import React from "react";
+import '../../styles/App.css';
+import BTLogo from '../../assets/BTLogo.png';
+import QVLogo from '../../assets/quizverse-sc.png';
+import TTLogo from '../../assets/Tamp-logo-v2.png';
 
 export default function Projects() {
   return (
@@ -19,7 +23,7 @@ export default function Projects() {
             <div className="card-header row bg-transparent border-0">
               <div className="col-auto">
                 <img
-                  src="../../assets/BTLogo.png"
+                  src={BTLogo}
                   alt="Bootleg Twitter Bird"
                   className="rounded float-left"
                   id="BT-logo"
@@ -67,7 +71,7 @@ export default function Projects() {
             <div className="card-header row bg-transparent border-0">
               <div className="col-auto">
                 <img
-                  src="./assets/images/quizverse-sc.png"
+                  src={QVLogo}
                   alt="Quizverse"
                   className="rounded float-left d-block"
                   id="QV-logo"
@@ -116,10 +120,10 @@ export default function Projects() {
             >
               <div className="col-auto">
                 <img
-                  src="./assets/images/Tamp-logo-v2.png"
+                  src={TTLogo}
                   alt="Tamp logo"
                   className="rounded float-left"
-                  id="tamp-logo"
+                  id="TT-logo"
                 />
               </div>
               <div className="col-md-10 text-center">
