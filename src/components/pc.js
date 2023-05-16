@@ -1,5 +1,5 @@
-import React from "react";
-import navTabs from "./navTabs";
+import React, { useState } from "react";
+import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -26,8 +26,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <navTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+    <div className="bg-dark text-light">
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
     </div>
   );
 }

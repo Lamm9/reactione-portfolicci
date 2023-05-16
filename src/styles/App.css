@@ -1,0 +1,12 @@
+root {
+  --lb: rgb(58, 119, 233);
+  --dg: #212529;
+}
+
+body {
+  background-color: var(--dg);
+}
+
+.bg-x-dark {
+  background-color: rgb(17, 17, 17);
+}
