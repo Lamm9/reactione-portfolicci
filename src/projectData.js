@@ -45,7 +45,7 @@ let portfolioData = [
     projName: "Product Server",
     projDesc: "A back-end API for a product database.",
     stack: "Back-End",
-    img: "none yet",
+    img: "./assets/Produserve-logo.png",
     imgDesc: "Product Server Logo",
     link: "https://github.com/Lamm9/product-server",
   },

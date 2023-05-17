@@ -4,7 +4,7 @@ import "../styles/App.css";
 export default function Footer() {
   return (
     <div>
-      <footer className="footer text-center fixed-bottom bg-dark">
+      <footer className="footer text-center bg-dark">
         <a
           className="btn text-secondary"
           href="https://github.com/Lamm9"

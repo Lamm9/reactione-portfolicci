@@ -6,8 +6,8 @@ export default function NavTabs({ currentPage, handlePageChange }) {
     <div className="text-center">
       <header>
         <div className="row">
-          <h1 className="display-5 d-inline col bg-dark">Harrison Lamm</h1>
-          <nav className="navbar navbar-expand-lg bg-dark col">
+          <h1 className="display-5 pt-1 bg-dark col-sm mb-0" id="my-name">Harrison Lamm</h1>
+          <nav className="navbar navbar-expand-lg bg-dark col-sm justify-content-center" id="navbar">
             <ul className="nav nav-tabs">
               <li className="nav-item">
                 <a

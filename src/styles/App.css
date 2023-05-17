@@ -10,6 +10,8 @@ root {
 
 body {
   background-color: var(--dg);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .bg-x-dark {
@@ -47,9 +49,14 @@ ul {
   #bio-img {
     width: 50%;
   }
+
   .logo {
-    width: 50px;
+    width: 55px;
     height: auto;
     position: absolute;
+  }
+
+  #navbar {
+    padding-top: 15px;
   }
 }
