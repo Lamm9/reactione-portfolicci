@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/App.css";
-import projects from "../../projectData.json";
+import projects from "../../projectData";
 
 export default function Projects() {
   return (
@@ -18,17 +18,17 @@ export default function Projects() {
       </div>
       {projects.map((project) => {
         return (
-          <div className="container">
+          <div className="container" id={project.projName}>
             <div className="card bg-dark m-3 text-light">
               <div className="card-header row bg-transparent border-0">
-                <div className="col-auto">
+                <div className="col-2">
                   <img
-                    href={project.img}
+                    src={project.img}
                     alt={project.imgDesc}
                     className="rounded float-left logo"
                   />
                 </div>
-                <div className="col-md-10 text-center">
+                <div className="col-md-8 text-center">
                   <h3 className="card-title mt-3 text-light">
                     {project.projName}
                   </h3>
@@ -44,10 +44,10 @@ export default function Projects() {
                       <p>{project.stack}</p>
                     </div>
                   </div>
-                  <div>
+                  <div className="text-end">
                     <a
                       href={project.link}
-                      className="btn bg-dark text-warning p-1 me-3 mb-2"
+                      className="btn bg-primary text-light p-1 me-3 mb-2"
                       target="_blank"
                       rel="noopener noreferrer"
                     >Check it out!</a>

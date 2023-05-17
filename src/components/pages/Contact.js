@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="bg-dark text-center">
       <h1 className="display-3 mb-4 mt-5">Let's Get in Touch</h1>
       <div className="row justify-content-center">
-        <div className="col-4 align-self-center">
+        <div className="col-sm align-self-center">
           <p className="card-body mb-5">
             I'm always looking for work and for opportunities to connect with
             other developers. Feel free to reach out to me on any of the
