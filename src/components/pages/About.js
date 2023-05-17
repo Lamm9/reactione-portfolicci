@@ -1,6 +1,16 @@
 import React from "react";
 import Pic from "../../assets/bio-img.jpeg";
 import "../../styles/App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(faFontAwesome, faGithub, faLinkedin, faInstagram);
 
 export default function About() {
   return (
@@ -16,10 +26,47 @@ export default function About() {
           opportunities to learn and grow as a developer and designer.
         </p>
       </div>
-      <div className="container-sm">
-        <ul className="list-group list-group">
-          
-        </ul>
+      <div className="container-sm mt-3">
+        <div className="row">
+          <div className="col-sm">
+            <a
+              href="https://github.com/Lamm9"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="p-3"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                size="3x"
+                className="social-links"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/harrison-lamm-458064249/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="p-3"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                size="3x"
+                className="social-links"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/itsharrisonlamm/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="p-3"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "instagram"]}
+                size="3x"
+                className="social-links"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
