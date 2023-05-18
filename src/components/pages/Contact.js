@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="row">
         <div className="col-sm">
           <div className="form-group m-4">
-            <h1 className="form-header display-6">How can i help?</h1>
+            <h1 className="form-header display-6">How can I help?</h1>
             <div className="row justify-content-center">
               <div className="col-sm-6">
                 <form>
