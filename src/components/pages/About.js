@@ -15,8 +15,18 @@ library.add(faFontAwesome, faGithub, faLinkedin, faInstagram);
 export default function About() {
   return (
     <div className="container-md text-center pb-5">
-      <h1 className="display-3 mb-5 mt-5">Hi, I'm Harrison</h1>
-      <img src={Pic} alt="it's me!" id="bio-img" className="rounded"></img>
+      <div className="row mt-5">
+        <h1 className="display-3 col-sm align-self-center text-fancy">Hi, I'm Harrison</h1>
+        <div className="col-sm">
+          <img
+            src={Pic}
+            alt="it's me!"
+            id="bio-img"
+            className="img-fluid p-5"
+          />
+        </div>
+      </div>
+
       <div className="card bg-dark mt-5">
         <h2 className="pt-3 display-6">About Me</h2>
         <p className="card-body pb-4">

@@ -9,7 +9,7 @@ export default function Projects() {
         <div className="col-md text-center text-light">
           <h1 className="display-3 mt-5">My Work</h1>
         </div>
-        <div className="text-center m-4"> 
+        <div className="text-center m-4">
           <p>
             Here is some of my work. Click on the check it links to be taken to
             the deployed site or Github repo.
@@ -44,13 +44,25 @@ export default function Projects() {
                       <p>{project.stack}</p>
                     </div>
                   </div>
-                  <div className="text-end">
-                    <a
-                      href={project.link}
-                      className="btn bg-primary text-light p-1 me-3 mb-2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >Check it out!</a>
+                  <div className="row mb-2">
+                    <div className="col text-start">
+                      <a
+                        href={project.repo}
+                        className="btn bg-orange text-light p-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >See the repo</a>
+                    </div>
+                    <div className="col text-end">
+                      <a
+                        href={project.link}
+                        className="btn bg-primary text-light p-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Check it out!
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
