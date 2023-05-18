@@ -9,7 +9,16 @@ export default function Resume() {
         <h1 className="display-5 text-center mt-5 mb-5">
           Interested in working with me? See if I've got what it takes.
         </h1>
-        <h2 className="display-6 text-center mb-5">Here's my resume</h2>
+        <h2 className="display-6 text-center">Here's my resume</h2>
+        <div className="text-center mb-5">
+          <a
+            className="m-1 p-1 btn text-fancy"
+            href="../../assets/Resume2022.docx"
+            download="Resume2022.docx"
+          >
+            or download it here
+          </a>
+        </div>
         <div id="education">
           <h3 className="display-6 text-center">Education</h3>
           <div>

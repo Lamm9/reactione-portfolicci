@@ -21,6 +21,14 @@ export default function Footer() {
         >
           LinkedIn
         </a>
+        <a
+          className="btn text-secondary"
+          href="https://www.instagram.com/itsharrisonlamm/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
       </footer>
     </div>
   );

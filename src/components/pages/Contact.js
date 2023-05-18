@@ -42,7 +42,7 @@ export default function Contact() {
                     rows="3"
                     placeholder="Let's work together!"
                   ></textarea>
-                  <button type="submit" class="btn btn-primary p-2 pt-1 pb-1 mt-3">
+                  <button type="submit" className="btn btn-primary p-2 pt-1 pb-1 mt-3">
                     Let's talk
                   </button>
                 </form>
@@ -62,7 +62,7 @@ export default function Contact() {
       </div>
       <div className="align-self-center bg-x-dark justify-content-center row mb-4">
         <ul className="list-group col-lg-6 mb-5">
-          <li className="ms-5 me-5">
+          <li className="ms-5 me-5 btn">
             <a
               className="list-group-item bg-secondary text-light"
               href="https://github.com/Lamm9"
@@ -72,7 +72,7 @@ export default function Contact() {
               Github
             </a>
           </li>
-          <li className="ms-5 me-5 mt-2 mb-2">
+          <li className="ms-5 me-5 mt-2 mb-2 btn">
             <a
               className="list-group-item bg-primary text-light"
               href="https://www.linkedin.com/in/harrison-lamm-458064249/"
@@ -82,7 +82,7 @@ export default function Contact() {
               LinkedIn
             </a>
           </li>
-          <li className="ms-5 me-5">
+          <li className="ms-5 me-5 btn">
             <a
               className="list-group-item bg-ig text-light"
               href="https://www.instagram.com/itsharrisonlamm/"
