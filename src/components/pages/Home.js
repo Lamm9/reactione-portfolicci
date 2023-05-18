@@ -3,9 +3,7 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <div>
-        
-      </div>
+      <div></div>
       <div className="container-md text-center">
         <h3 className="display-4 mb-4 mt-5">Welcome to my portfolio</h3>
         <p>
@@ -14,12 +12,12 @@ export default function Home() {
           see my current portfolio, head to the link below!
         </p>
         <a
-          className="btn link-warning bg-dark p-1 me-3 mb-3"
+          className="btn link-warning bg-dark pe-2 ps-2 p-1 me-3 mb-3"
           href="https://lammfolio.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          My current portfolio
+          <p className="text-fancy p-0 m-0">My current portfolio</p>
         </a>
       </div>
     </div>

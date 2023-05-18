@@ -10,6 +10,7 @@ body {
   --lg: rgb(197, 197, 197);
   --dg: #212529;
   --purple: #6f42c1;
+  --violet: rgb(160, 18, 167);
 }
 
 .bg-x-dark {
@@ -21,6 +22,7 @@ body {
     left,
     rgb(51, 49, 173),
     rgb(58, 119, 233),
+    rgb(149, 18, 167),
     rgb(228, 32, 97)
   );
   background-clip: text;
@@ -30,6 +32,10 @@ body {
 
 .text-purple {
   color: var(--purple) !important;
+}
+
+.bg-violet {
+  background-color: var(--violet) !important;
 }
 
 .bg-orange {

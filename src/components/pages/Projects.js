@@ -48,7 +48,7 @@ export default function Projects() {
                     <div className="col text-start">
                       <a
                         href={project.repo}
-                        className="btn bg-orange text-light p-1"
+                        className="btn text-primary p-1"
                         target="_blank"
                         rel="noopener noreferrer"
                       >See the repo</a>
@@ -56,7 +56,7 @@ export default function Projects() {
                     <div className="col text-end">
                       <a
                         href={project.link}
-                        className="btn bg-primary text-light p-1"
+                        className="btn bg-violet text-light p-1"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
