@@ -3,7 +3,7 @@ let portfolioData = [
     projName: "Bootleg Twitter",
     projDesc: "An extremely original twitter clone made for bootcamp.",
     stack: "Full-Stack",
-    img: "/assets/BTLogo.png",
+    img: "./assets/BTLogo.png",
     imgDesc: "Bootleg Twitter bird",
     link: "https://bootleg-twitter.herokuapp.com/login",
     repo: "https://github.com/DavidDontKnow/BootlegTwitter"
@@ -12,7 +12,7 @@ let portfolioData = [
     projName: "Quizverse",
     projDesc: "A collection of fun, nerdy quizzes, similar to Buzzfeed.",
     stack: "Front-End",
-    img: "/assets/quizverse-sc.png",
+    img: "../public/assets/quizverse-sc.png",
     imgDesc: "Quizverse screenshot",
     link: "https://lamm9.github.io/first-group-project/",
     repo: "https://github.com/Lamm9/first-group-project"
