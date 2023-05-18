@@ -27,7 +27,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="card bg-dark mt-5">
+      <div className="card bg-dark mt-5 pt-1">
         <h2 className="pt-3 display-6">About Me</h2>
         <p className="card-body pb-4">
           I'm a full-stack web developer, graphic designer, and digital artist
@@ -36,7 +36,7 @@ export default function About() {
           opportunities to learn and grow as a developer and designer.
         </p>
       </div>
-      <div className="container-sm mt-3">
+      <div className="container-sm mt-5" id="about-social">
         <div className="row">
           <div className="col-sm">
             <a
