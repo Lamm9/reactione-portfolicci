@@ -23,7 +23,7 @@ export default function Projects() {
               <div className="card-header row bg-transparent border-0">
                 <div className="col-2">
                   <img
-                    src={project.img}
+                    src={process.env.PUBLIC_URL + project.img}
                     alt={project.imgDesc}
                     className="rounded float-left logo"
                   />
