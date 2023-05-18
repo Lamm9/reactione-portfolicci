@@ -65,13 +65,15 @@ export default function Resume() {
         <div id="skills">
           <h3 className="display-6 text-center">Skills</h3>
         </div>
-        <ul className="list-group">
+        <ul className="list-group text-center bg-dark mb-5">
           {resume.skills &&
             resume.skills.map((item) => {
               return (
-                <li>
-                  <h4>{item.name}</h4>
-                  <p>{item.desc}</p>
+                <li className="m-2 mt-4">
+                  <h4 className="display-6">{item.name}</h4>
+                  <div className="row justify-content-center">
+                    <p className="col-6 m-2">{item.desc}</p>
+                  </div>
                 </li>
               );
             })}
