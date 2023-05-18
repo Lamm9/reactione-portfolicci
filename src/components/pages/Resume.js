@@ -13,7 +13,7 @@ export default function Resume() {
         <div className="text-center mb-5">
           <a
             className="m-1 p-1 btn text-fancy"
-            href="../../assets/Resume2022.docx"
+            href="/src/assets/Resume2022.docx"
             download="Resume2022.docx"
           >
             or download it here
