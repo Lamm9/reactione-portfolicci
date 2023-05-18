@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactione-portfolicci/static/css/main.369988ab.css",
+    "main.js": "/reactione-portfolicci/static/js/main.8ac3a557.js",
+    "static/media/bio-img.jpeg": "/reactione-portfolicci/static/media/bio-img.c3c291793ea5215f2dcd.jpeg",
+    "index.html": "/reactione-portfolicci/index.html",
+    "main.369988ab.css.map": "/reactione-portfolicci/static/css/main.369988ab.css.map",
+    "main.8ac3a557.js.map": "/reactione-portfolicci/static/js/main.8ac3a557.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.369988ab.css",
+    "static/js/main.8ac3a557.js"
+  ]
+}
