@@ -50,12 +50,9 @@ export default function Resume() {
                       <p className="h4">{item.position}</p>
                       <p className="fw-light">{item.company}</p>
                     </div>
-
-                    <div className="card-body bg-x-dark row justify-content-center">
+                    <div className="card-body bg-x-dark justify-content-center">
                       <p>{item.duration}</p>
-                      <div className="col-8">
-                        <p>{item.desc}</p>
-                      </div>
+                      <p>{item.desc}</p>
                     </div>
                   </div>
                 );
