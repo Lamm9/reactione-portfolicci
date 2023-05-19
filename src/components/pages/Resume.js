@@ -15,6 +15,9 @@ export default function Resume() {
             className="m-1 p-1 btn text-fancy"
             href="/src/assets/Resume2022.docx"
             download="Resume2022.docx"
+            value="download"
+            rel="noreferrer"
+            target="_blank"
           >
             or download it here
           </a>
@@ -69,7 +72,7 @@ export default function Resume() {
                 <li className="m-2 mt-4">
                   <h4 className="display-6">{item.name}</h4>
                   <div className="row justify-content-center">
-                    <p className="col-6 m-2">{item.desc}</p>
+                    <p className="col-sm-8 m-2">{item.desc}</p>
                   </div>
                 </li>
               );

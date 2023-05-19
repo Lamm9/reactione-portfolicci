@@ -147,7 +147,7 @@ ul {
   }
 
   .carousel {
-    display: block !important;
+    display: inline !important;
   }
 
   #navbar {

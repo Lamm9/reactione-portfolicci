@@ -10,6 +10,7 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import "bootstrap/dist/css/bootstrap.css";
 
 library.add(faFontAwesome, faGithub, faLinkedin, faInstagram);
 
@@ -20,24 +21,6 @@ export default function About() {
         <h1 className="display-3 col-sm align-self-center">Hi, I'm Harrison</h1>
         <div className="col-sm bg-split rounded border">
           <img src={Pic} alt="it's me!" id="bio-img" className="img-fluid" />
-        </div>
-      </div>
-
-      <div
-        id="carousel"
-        class="carousel slide text-center pb-3"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner p-0 m-0">
-          <h3 class="carousel-item active display-6" data-bs-interval="2600">
-            Web Developer
-          </h3>
-          <h3 class="carousel-item display-6" data-bs-interval="3000">
-            Graphic Designer
-          </h3>
-          <h3 class="carousel-item display-6" data-bs-interval="3000">
-            Digital Artist
-          </h3>
         </div>
       </div>
 
