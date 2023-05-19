@@ -12,41 +12,7 @@ export default function Contact() {
             <h1 className="form-header display-6">How can I help?</h1>
             <div className="row justify-content-center">
               <div className="col-sm-6 bg-dark p-4 rounded">
-                <form>
-                  <label className="text-light form-label" htmlFor="name">
-                    Your Name
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control bg-x-dark border-0 mt-1"
-                    id="name"
-                    placeholder="Name"
-                  />
-                  <label className="text-light form-label mt-1" htmlFor="email">
-                    Your Email
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control bg-x-dark border-0"
-                    id="email"
-                    placeholder="fantastic-client@bmail.com"
-                  />
-                  <label
-                    className="text-light form-label mt-1"
-                    htmlFor="message"
-                  >
-                    Comments
-                  </label>
-                  <textarea
-                    className="form-control bg-x-dark border-0"
-                    id="message"
-                    rows="3"
-                    placeholder="Let's work together!"
-                  ></textarea>
-                  <button type="submit" className="btn btn-primary p-2 pt-1 pb-1 mt-3">
-                    Let's talk
-                  </button>
-                </form>
+                <Form />
               </div>
             </div>
           </div>
