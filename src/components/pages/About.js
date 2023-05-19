@@ -23,6 +23,24 @@ export default function About() {
         </div>
       </div>
 
+      <div
+        id="carousel"
+        class="carousel slide text-center pb-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner p-0 m-0">
+          <h3 class="carousel-item active display-6" data-bs-interval="2600">
+            Web Developer
+          </h3>
+          <h3 class="carousel-item display-6" data-bs-interval="3000">
+            Graphic Designer
+          </h3>
+          <h3 class="carousel-item display-6" data-bs-interval="3000">
+            Digital Artist
+          </h3>
+        </div>
+      </div>
+
       <div className="row mt-5">
         <div className="col-sm">
           <img
@@ -35,7 +53,7 @@ export default function About() {
         <div className="col-sm">
           <div className="card bg-transparent border-0 mt-5 pt-1">
             <h2 className="pt-3 display-6">About Me</h2>
-            <p className="card-body pb-4">
+            <p className="card-body">
               I'm a full-stack web developer, graphic designer, and digital
               artist from southern California. I'm a grateful follower of Jesus
               Christ, and I love web design and graphic art. I'm always looking

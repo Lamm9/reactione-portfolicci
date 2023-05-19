@@ -17,6 +17,10 @@ textarea {
   resize: none !important;
 }
 
+.carousel {
+  display: none !important;
+}
+
 .bg-x-dark {
   background-color: rgb(17, 17, 17) !important;
 }
@@ -140,6 +144,10 @@ ul {
     width: 55px;
     height: auto;
     position: absolute;
+  }
+
+  .carousel {
+    display: block !important;
   }
 
   #navbar {

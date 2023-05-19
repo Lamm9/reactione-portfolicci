@@ -25,12 +25,12 @@ export default function Resume() {
             {resume.education &&
               resume.education.map((item) => {
                 return (
-                  <div className="card bg-dark p-1 m-3 text-center">
-                    <div className="card-header">
+                  <div className="card bg-transparent p-1 m-3 text-center">
+                    <div className="card-header bg-dark">
                       <p className="h4">{item.subject}</p>
                       <p className="fw-light">{item.school}</p>
                     </div>
-                    <div className="card-body">
+                    <div className="card-body bg-x-dark">
                       <p className="fw-light">{item.duration}</p>
                       <p>{item.desc}</p>
                     </div>
@@ -45,13 +45,13 @@ export default function Resume() {
             {resume.work &&
               resume.work.map((item) => {
                 return (
-                  <div className="card bg-dark p-1 m-3 text-center">
-                    <div className="card-header">
+                  <div className="card bg-transparent p-1 m-3 text-center">
+                    <div className="card-header bg-dark">
                       <p className="h4">{item.position}</p>
                       <p className="fw-light">{item.company}</p>
                     </div>
 
-                    <div className="card-body row justify-content-center">
+                    <div className="card-body bg-x-dark row justify-content-center">
                       <p>{item.duration}</p>
                       <div className="col-8">
                         <p>{item.desc}</p>
@@ -65,7 +65,7 @@ export default function Resume() {
         <div id="skills">
           <h3 className="display-6 text-center">Skills</h3>
         </div>
-        <ul className="list-group text-center bg-dark mb-5">
+        <ul className="list-group text-center bg-x-dark mb-5">
           {resume.skills &&
             resume.skills.map((item) => {
               return (
