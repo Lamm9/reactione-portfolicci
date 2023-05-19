@@ -36,7 +36,7 @@ export default function Form() {
           </label>
           <input
             type="text"
-            className="form-control bg-x-dark border-0 mt-1"
+            className="text-light form-control bg-x-dark border-0 mt-1"
             id="name"
             onChange={handleInputChange}
             placeholder="Name"
@@ -46,7 +46,7 @@ export default function Form() {
           </label>
           <input
             type="email"
-            className="form-control bg-x-dark border-0"
+            className="text-light form-control bg-x-dark border-0"
             id="email"
             onChange={handleInputChange}
             placeholder="fantastic-client@bmail.com"
@@ -56,7 +56,7 @@ export default function Form() {
           </label>
           <textarea
             type="text"
-            className="form-control bg-x-dark border-0"
+            className="text-light form-control bg-x-dark border-0"
             id="message"
             onChange={handleInputChange}
             rows="3"
