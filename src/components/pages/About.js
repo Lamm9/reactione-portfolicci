@@ -12,9 +12,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "bootstrap/dist/css/bootstrap.css";
 
-
-const TEXTS = ["Web Developer", "Graphic Designer", "Digital Artist"];
-
 library.add(faFontAwesome, faGithub, faLinkedin, faInstagram);
 
 export default function About() {
