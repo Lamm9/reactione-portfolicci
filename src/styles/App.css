@@ -32,10 +32,10 @@ textarea {
 .text-fancy {
   background: -webkit-linear-gradient(
     left,
-    rgb(51, 49, 173),
-    rgb(58, 119, 233),
-    rgb(149, 18, 167),
-    rgb(228, 32, 97)
+    rgb(44, 43, 126),
+    rgb(54, 99, 182),
+    rgb(104, 18, 116),
+    rgb(182, 31, 81)
   );
   background-clip: text;
   -webkit-background-clip: text;

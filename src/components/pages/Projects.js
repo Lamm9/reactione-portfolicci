@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/App.css";
 import projects from "../../projectData";
+import BTPic from "../../assets/BT-Display.png";
 
 export default function Projects() {
   return (
@@ -16,6 +17,38 @@ export default function Projects() {
           </p>
         </div>
       </div>
+      <div className="container mt-5 mb-5 text-center">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-sm">
+            <h1 className="display-6 mb-4">Bootleg Twitter</h1>
+            <p>An extremely original Twitter clone made for bootcamp.</p>
+            <p className="text-fancy">Full-Stack</p>
+            <a
+              className="btn bg-dark text-secondary p-1"
+              href="https://bootleg-twitter.herokuapp.com/login"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Check it out!
+            </a>
+          </div>
+          <div className="col-sm pt-4">
+            <a
+              href="https://bootleg-twitter.herokuapp.com/login"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="Bootleg Twitter shown on devices"
+                src={BTPic}
+                id="BTPic"
+                className="img-fluid bg-fancy rounded-5 mb-4"
+              ></img>
+            </a>
+          </div>
+        </div>
+      </div>
+
       {projects.map((project) => {
         return (
           <div className="container" id={project.projName}>
@@ -41,7 +74,7 @@ export default function Projects() {
                       {project.projDesc}
                     </h4>
                     <div>
-                      <p>{project.stack}</p>
+                      <p className="text-fancy">{project.stack}</p>
                     </div>
                   </div>
                   <div className="row mb-2">
@@ -51,12 +84,14 @@ export default function Projects() {
                         className="btn text-primary p-1"
                         target="_blank"
                         rel="noopener noreferrer"
-                      >See the repo</a>
+                      >
+                        See the repo
+                      </a>
                     </div>
                     <div className="col text-end">
                       <a
                         href={project.link}
-                        className="btn bg-secondary text-dark p-1"
+                        className="btn bg-dark text-secondary p-1"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -1,15 +1,5 @@
 let portfolioData = [
   {
-    projName: "Bootleg Twitter",
-    projDesc: "An extremely original twitter clone made for bootcamp.",
-    stack: "Full-Stack",
-    img: "/assets/BTLogo.png",
-    imgDesc: "Bootleg Twitter bird",
-    link: "https://bootleg-twitter.herokuapp.com/login",
-    repo: "https://github.com/DavidDontKnow/BootlegTwitter",
-  },
-
-  {
     projName: "README Gener8r",
     projDesc:
       "A command-line application that generates a README.md file based on user input.",
