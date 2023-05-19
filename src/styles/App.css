@@ -32,10 +32,10 @@ textarea {
 .text-fancy {
   background: -webkit-linear-gradient(
     left,
-    rgb(44, 43, 126),
-    rgb(54, 99, 182),
-    rgb(104, 18, 116),
-    rgb(182, 31, 81)
+    rgb(60, 58, 194),
+    rgb(62, 125, 243),
+    rgb(160, 21, 179),
+    rgb(247, 29, 102)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -45,10 +45,10 @@ textarea {
 .bg-fancy {
   background: -webkit-linear-gradient(
     left,
-    rgb(72, 69, 240),
-    rgb(83, 140, 247),
-    rgb(218, 28, 243),
-    rgb(247, 54, 118)
+    rgb(64, 62, 190),
+    rgb(75, 119, 202),
+    rgb(182, 30, 202),
+    rgb(196, 52, 100)
   );
 }
 
