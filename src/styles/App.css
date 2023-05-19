@@ -126,6 +126,15 @@ ul {
   margin-bottom: 5.4%;
 }
 
+#BTPic {
+  background: radial-gradient(
+    circle,
+    rgb(60, 58, 185) 0%,
+    rgba(10, 10, 10, 0.5) 50%,
+    rgb(5, 5, 5) 100%
+  );
+}
+
 span {
   padding: 3px;
 }
@@ -146,8 +155,8 @@ ul {
     position: absolute;
   }
 
-  .carousel {
-    display: inline !important;
+  #carousel {
+    display: block !important;
   }
 
   #navbar {

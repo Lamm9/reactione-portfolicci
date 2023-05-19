@@ -12,9 +12,13 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "bootstrap/dist/css/bootstrap.css";
 
+
+const TEXTS = ["Web Developer", "Graphic Designer", "Digital Artist"];
+
 library.add(faFontAwesome, faGithub, faLinkedin, faInstagram);
 
 export default function About() {
+
   return (
     <div className="container-md text-center pb-5 bg-pitch">
       <div className="row mt-5 ms-1 me-1">

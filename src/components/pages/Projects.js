@@ -42,7 +42,7 @@ export default function Projects() {
                 alt="Bootleg Twitter shown on devices"
                 src={BTPic}
                 id="BTPic"
-                className="img-fluid bg-fancy rounded-5 mb-4"
+                className="img-fluid rounded-5 mb-4"
               ></img>
             </a>
           </div>
