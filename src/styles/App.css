@@ -3,18 +3,26 @@
 }
 
 body {
-  background-color: var(--dg);
+  background-color: var(--dg) !important;
   overflow-x: hidden;
   scroll-behavior: smooth;
   --lb: rgb(58, 119, 233);
   --lg: rgb(197, 197, 197);
-  --dg: #212529;
+  --dg: rgb(5, 5, 5);
   --purple: #6f42c1;
   --violet: rgb(160, 18, 167);
 }
 
+textarea {
+  resize: none !important;
+}
+
 .bg-x-dark {
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(17, 17, 17) !important;
+}
+
+.bg-pitch {
+  background-color: var(--dg) !important;
 }
 
 .text-fancy {
@@ -28,6 +36,26 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bg-fancy {
+  background: -webkit-linear-gradient(
+    left,
+    rgb(72, 69, 240),
+    rgb(83, 140, 247),
+    rgb(218, 28, 243),
+    rgb(247, 54, 118)
+  );
+}
+
+.bg-split {
+  background: linear-gradient(
+    to right, 
+    #ffffff 0%, 
+    #ffffff 50%, 
+    #000000 50%, 
+    #000000 100%
+  );
 }
 
 .text-purple {
@@ -87,7 +115,7 @@ ul {
 }
 
 #bio-img {
-  border-radius: 12%;
+  border-radius: 25% !important;
 }
 
 #about-social {
@@ -105,6 +133,7 @@ ul {
 @media screen and (max-width: 768px) {
   #bio-img {
     border-radius: 0 30%;
+    border: 0px !important;
   }
 
   .logo {

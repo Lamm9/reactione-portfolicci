@@ -10,14 +10,14 @@ export default function Contact() {
           <div className="form-group m-4">
             <h1 className="form-header display-6">How can I help?</h1>
             <div className="row justify-content-center">
-              <div className="col-sm-6">
+              <div className="col-sm-6 bg-dark p-4 rounded">
                 <form>
                   <label className="text-light form-label" htmlFor="name">
                     Your Name
                   </label>
                   <input
                     type="text"
-                    className="form-control mt-1"
+                    className="form-control bg-x-dark border-0 mt-1"
                     id="name"
                     placeholder="Name"
                   />
@@ -26,7 +26,7 @@ export default function Contact() {
                   </label>
                   <input
                     type="email"
-                    className="form-control"
+                    className="form-control bg-x-dark border-0"
                     id="email"
                     placeholder="fantastic-client@bmail.com"
                   />
@@ -37,7 +37,7 @@ export default function Contact() {
                     Comments
                   </label>
                   <textarea
-                    className="form-control"
+                    className="form-control bg-x-dark border-0"
                     id="message"
                     rows="3"
                     placeholder="Let's work together!"
@@ -60,7 +60,7 @@ export default function Contact() {
           </p>
         </div>
       </div>
-      <div className="align-self-center bg-x-dark justify-content-center row mb-4">
+      <div className="align-self-center bg-pitch justify-content-center row mb-4">
         <ul className="list-group col-lg-6 mb-5">
           <li className="ms-5 me-5 btn">
             <a

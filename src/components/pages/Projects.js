@@ -9,7 +9,7 @@ export default function Projects() {
         <div className="col-md text-center text-light">
           <h1 className="display-3 mt-5">My Work</h1>
         </div>
-        <div className="text-center m-4">
+        <div className="text-center mt-4 mb-4">
           <p>
             Here is some of my work. Click on the check it links to be taken to
             the deployed site or Github repo.
@@ -19,7 +19,7 @@ export default function Projects() {
       {projects.map((project) => {
         return (
           <div className="container" id={project.projName}>
-            <div className="card bg-dark m-3 text-light">
+            <div className="card bg-x-dark m-3 mb-5 text-light">
               <div className="card-header row bg-transparent border-0">
                 <div className="col-2">
                   <img
@@ -56,7 +56,7 @@ export default function Projects() {
                     <div className="col text-end">
                       <a
                         href={project.link}
-                        className="btn bg-violet text-light p-1"
+                        className="btn bg-secondary text-dark p-1"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -6,14 +6,14 @@ export default function NavTabs({ currentPage, handlePageChange }) {
     <div className="text-center">
       <header>
         <div className="row">
-          <div className="pt-1 bg-dark col-sm mb-0">
+          <div className="pt-1 bg-x-dark col-sm mb-0">
             <h1 className="display-5 text-fancy" id="my-name">
               Harrison Lamm
             </h1>
           </div>
 
           <nav
-            className="navbar navbar-expand-lg bg-dark col-sm justify-content-center"
+            className="navbar navbar-expand-lg bg-x-dark col-sm justify-content-center"
             id="navbar"
           >
             <ul className="nav nav-tabs">
