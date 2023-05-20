@@ -17,6 +17,21 @@ textarea {
   resize: none !important;
 }
 
+.App {
+  text-align: center;
+  justify-content: center;
+  background-color: var(--dg);
+  color: var(--lg);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.loader {
+  margin-top: 40%;
+}
+
 .carousel {
   display: none !important;
 }
@@ -147,6 +162,10 @@ ul {
   #bio-img {
     border-radius: 0 30%;
     border: 0px !important;
+  }
+
+  .loader {
+    margin-top: 60%;
   }
 
   .logo {
