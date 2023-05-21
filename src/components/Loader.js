@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/App.css';
-import TextTransition, { presets } from 'react-text-transition';
+import TextTransition from 'react-text-transition';
 
 export default function Loader() {
   const TEXTS = [
@@ -23,7 +23,7 @@ export default function Loader() {
     <div className="loader">
       <div className="container-fluid mt-5">
         <div className="row mt-5 text-fancy">
-          <div className="col-3 text-end pe-2">
+          <div className="col-2 text-end pe-2">
             <h1 className="">I'm</h1>
           </div>
           <div className="col-8 text-start p-0">
