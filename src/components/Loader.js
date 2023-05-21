@@ -22,12 +22,12 @@ export default function Loader() {
   return (
     <div className="loader">
       <div className="container-fluid mt-5">
-        <div className="row mt-5 text-fancy">
-          <div className="col-2 text-end pe-2">
-            <h1 className="">I'm</h1>
+        <div className="row mt-5">
+          <div className="col-2 text-end pe-2 load">
+            <h1>I'm</h1>
           </div>
-          <div className="col-8 text-start p-0">
-            <h1 className=""><TextTransition>{TEXTS[index % TEXTS.length]}</TextTransition></h1>
+          <div className="col-8 text-start p-0 load">
+            <h1><TextTransition>{TEXTS[index % TEXTS.length]}</TextTransition></h1>
           </div>
         </div>
       </div>

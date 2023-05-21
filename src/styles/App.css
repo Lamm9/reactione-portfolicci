@@ -32,6 +32,10 @@ textarea {
   margin-top: 40%;
 }
 
+.load {
+  color:rgb(230, 154, 41);
+}
+
 .carousel {
   display: none !important;
 }
