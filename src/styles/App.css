@@ -9,6 +9,7 @@ body {
   --lb: rgb(58, 119, 233);
   --lg: rgb(197, 197, 197);
   --dg: rgb(5, 5, 5);
+  --gray: #212529;
   --purple: #6f42c1;
   --violet: rgb(160, 18, 167);
 }
@@ -160,6 +161,12 @@ span {
 
 ul {
   text-decoration: none;
+}
+
+@media screen and (min-width: 2650px) {
+  .loader {
+    margin-top: 20%;
+  }
 }
 
 @media screen and (max-width: 768px) {
