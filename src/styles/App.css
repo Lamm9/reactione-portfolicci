@@ -34,7 +34,7 @@ textarea {
 }
 
 .load {
-  color:rgb(230, 154, 41);
+  color: rgb(230, 154, 41);
 }
 
 .carousel {
@@ -47,6 +47,10 @@ textarea {
 
 .bg-pitch {
   background-color: var(--dg) !important;
+}
+
+.text-orange {
+  color: rgb(235, 142, 75) !important;
 }
 
 .text-fancy {
@@ -74,10 +78,10 @@ textarea {
 
 .bg-split {
   background: linear-gradient(
-    to right, 
-    #ffffff 0%, 
-    #ffffff 50%, 
-    #000000 50%, 
+    to right,
+    #ffffff 0%,
+    #ffffff 50%,
+    #000000 50%,
     #000000 100%
   );
 }
@@ -116,11 +120,6 @@ textarea {
 
 .nav-item a {
   color: var(--lg) !important;
-}
-
-.logo {
-  width: 80px;
-  height: auto;
 }
 
 .social-links {
@@ -163,9 +162,12 @@ ul {
   text-decoration: none;
 }
 
-@media screen and (min-width: 2650px) {
+@media screen and (min-width: 1400px) {
   .loader {
     margin-top: 20%;
+  }
+  .logo {
+    margin-left: 10%;
   }
 }
 
@@ -177,12 +179,6 @@ ul {
 
   .loader {
     margin-top: 60%;
-  }
-
-  .logo {
-    width: 55px;
-    height: auto;
-    position: absolute;
   }
 
   #carousel {

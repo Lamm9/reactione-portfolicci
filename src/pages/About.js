@@ -1,7 +1,7 @@
 import React from "react";
-import Pic from "../../assets/bio-img.PNG";
-import Pic2 from "../../assets/bio-img-2.png";
-import "../../styles/App.css";
+import Pic from "../assets/bio-img.PNG";
+import Pic2 from "../assets/bio-img-2.png";
+import "../styles/App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";
@@ -20,7 +20,7 @@ export default function About() {
     <div className="container-md text-center pb-5 bg-pitch">
       <div className="row mt-5 ms-1 me-1">
         <h1 className="display-3 col-sm align-self-center">Hi, I'm Harrison</h1>
-        <div className="col-sm bg-split rounded border">
+        <div className="col-sm">
           <img src={Pic} alt="it's me!" id="bio-img" className="img-fluid" />
         </div>
       </div>

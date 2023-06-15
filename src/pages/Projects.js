@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/App.css";
-import projects from "../../projectData";
-import BTPic from "../../assets/BT-Display.png";
+import "../styles/App.css";
+import projects from "../projectData";
+import BTPic from "../assets/BT-Display.png";
 
 export default function Projects() {
   return (
@@ -17,6 +17,7 @@ export default function Projects() {
           </p>
         </div>
       </div>
+      {/* bootleg twitter */}
       <div className="container mt-5 mb-5 text-center">
         <div className="row justify-content-center align-items-center">
           <div className="col-sm">
@@ -53,50 +54,52 @@ export default function Projects() {
         return (
           <div className="container" id={project.projName}>
             <div className="card bg-x-dark m-3 mb-5 text-light">
-              <div className="card-header row bg-transparent border-0">
-                <div className="col-2">
+              <div className="row align-items-center">
+                <div className="col-sm-2 text-center">
                   <img
                     src={process.env.PUBLIC_URL + project.img}
                     alt={project.imgDesc}
-                    className="rounded float-left logo"
+                    className="rounded float-left img-fluid p-1 logo"
                   />
                 </div>
-                <div className="col-md-8 text-center">
-                  <h3 className="card-title mt-3 text-light">
-                    {project.projName}
-                  </h3>
-                </div>
-              </div>
-              <div className="card-body">
-                <div className="row">
-                  <div className="text-center">
-                    <h4 className="card-title fw-light mb-1">
-                      {project.projDesc}
-                    </h4>
-                    <div>
-                      <p className="text-fancy">{project.stack}</p>
+                <div className="col-sm">
+                  <div className="card-header row bg-transparent border-0">
+                    <div className="col-md text-center">
+                      <h3 className="card-title mt-3 text-light">
+                        {project.projName}
+                      </h3>
                     </div>
                   </div>
-                  <div className="row mb-2">
-                    <div className="col text-start">
-                      <a
-                        href={project.repo}
-                        className="btn text-primary p-1"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        See the repo
-                      </a>
-                    </div>
-                    <div className="col text-end">
-                      <a
-                        href={project.link}
-                        className="btn bg-dark text-secondary p-1"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Check it out!
-                      </a>
+                  <div className="card-body">
+                    <div className="row">
+                      <div className="text-center">
+                        <h4 className="card-title fw-light mb-1">
+                          {project.projDesc}
+                        </h4>
+                        <div>
+                          <p className="text-success">{project.stack}</p>
+                        </div>
+                      </div>
+                      <div className="row mb-2">
+                        <div className="col text-center">
+                          <a
+                            href={project.repo}
+                            className="btn text-warning bg-dark p-1 m-1 ms-3"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            View the repo
+                          </a>
+                          <a
+                            href={project.link}
+                            className="btn bg-dark text-primary p-1 m-1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Check it out!
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

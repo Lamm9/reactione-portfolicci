@@ -1,6 +1,6 @@
 import React from "react";
-import "../../styles/App.css";
-import resume from "../../resumeData";
+import "../styles/App.css";
+import resume from "../resumeData";
 
 export default function Resume() {
   return (
