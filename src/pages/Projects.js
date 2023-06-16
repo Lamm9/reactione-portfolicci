@@ -10,11 +10,13 @@ export default function Projects() {
         <div className="col-md text-center text-light">
           <h1 className="display-3 mt-5">My Work</h1>
         </div>
-        <div className="text-center mt-4 mb-4">
-          <p>
-            Here is some of my work. Click on the check it links to be taken to
-            the deployed site or Github repo.
-          </p>
+        <div className="row justify-content-center">
+          <div className="col-sm-6 text-center mt-4 mb-4 px-4 ps-5">
+            <p>
+              Here is some of my work. Click on the check it links to be taken
+              to the deployed site or Github repo.
+            </p>
+          </div>
         </div>
       </div>
       {/* bootleg twitter */}
@@ -25,7 +27,7 @@ export default function Projects() {
             <p>An extremely original Twitter clone made for bootcamp.</p>
             <p className="text-fancy">Full-Stack</p>
             <a
-              className="btn bg-dark text-secondary p-1"
+              className="btn bg-dark text-secondary p-1 btn-shadow-dark"
               href="https://bootleg-twitter.herokuapp.com/login"
               rel="noopener noreferrer"
               target="_blank"
@@ -53,7 +55,7 @@ export default function Projects() {
       {projects.map((project) => {
         return (
           <div className="container" id={project.projName}>
-            <div className="card bg-x-dark m-3 mb-5 text-light">
+            <div className="card bg-x-dark m-3 mb-5 text-light card-shadow-dark">
               <div className="row align-items-center">
                 <div className="col-sm-2 text-center">
                   <img
@@ -80,11 +82,11 @@ export default function Projects() {
                           <p className="text-success">{project.stack}</p>
                         </div>
                       </div>
-                      <div className="row mb-2">
+                      <div className="row mb-2 justify-content-center">
                         <div className="col text-center">
                           <a
                             href={project.repo}
-                            className="btn text-warning bg-dark p-1 m-1 ms-3"
+                            className="btn text-warning bg-dark p-1 m-1 mx-2 btn-shadow-x-dark"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -92,7 +94,7 @@ export default function Projects() {
                           </a>
                           <a
                             href={project.link}
-                            className="btn bg-dark text-primary p-1 m-1"
+                            className="btn bg-dark text-primary p-1 m-1 btn-shadow-x-dark"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

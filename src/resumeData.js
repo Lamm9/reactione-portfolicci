@@ -40,6 +40,14 @@ let resume = {
   ],
   skills: [
     {
+      name: "Full-Stack Web Development",
+      desc: "I have a strong understanding of HTML, CSS, and JavaScript, and am familiar with the MERN stack. I love working with React JS and I'm always looking for new ways to make my websites more efficient and user-friendly.",
+    },
+    {
+      name: "Graphic Design",
+      desc: "I am familiar with the Adobe Creative Suite, Procreate, and many design concepts and philosophies. I'm always looking for new ways to make my designs more engaging and pleasing to the eye.",
+    },
+    {
       name: "Communication",
       desc: "Each of my previous jobs has made me an excellent communicator! I have learned to quickly and clearly communicate with clients to achieve their desired outcome.",
     },

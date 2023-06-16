@@ -11,7 +11,9 @@ body {
   --dg: rgb(5, 5, 5);
   --gray: #212529;
   --purple: #6f42c1;
+  --dp: #130d30;
   --violet: rgb(160, 18, 167);
+  --shade: rgb(0, 0, 0, 0.7);
 }
 
 textarea {
@@ -105,6 +107,7 @@ textarea {
     rgb(207, 0, 104),
     rgb(255, 191, 17)
   ) !important;
+  border: 0px !important;
 }
 
 .nav-tabs .nav-link.active {
@@ -120,6 +123,29 @@ textarea {
 
 .nav-item a {
   color: var(--lg) !important;
+}
+
+.btn-form {
+  background: linear-gradient(
+    to right bottom,
+    rgb(17, 38, 86),
+    rgb(25, 25, 25),
+    rgb(44, 14, 63)
+  ) !important;
+  border: 1px solid var(--dp) !important;
+  box-shadow: 3px 4px 2px 2px var(--dg) !important;
+}
+
+.btn-shadow-dark {
+  box-shadow: 3px 4px 8px 1px var(--dp) !important;
+}
+
+.btn-shadow-x-dark {
+  box-shadow: 2px 2px 2px 1px var(--shade) !important;
+}
+
+.card-shadow-dark {
+  box-shadow: 3px 8px 5px 1px var(--shade) !important;
 }
 
 .social-links {

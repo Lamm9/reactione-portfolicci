@@ -20,7 +20,7 @@ export default function About() {
     <div className="container-md text-center pb-5 bg-pitch">
       <div className="row mt-5 ms-1 me-1">
         <h1 className="display-3 col-sm align-self-center">Hi, I'm Harrison</h1>
-        <div className="col-sm">
+        <div className="col-sm bg-split border rounded">
           <img src={Pic} alt="it's me!" id="bio-img" className="img-fluid" />
         </div>
       </div>

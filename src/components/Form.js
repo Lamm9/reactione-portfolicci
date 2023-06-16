@@ -64,7 +64,7 @@ export default function Form() {
           ></textarea>
           <button
             type="submit"
-            className="btn btn-primary p-2 pt-1 pb-1 mt-3"
+            className="btn btn-form text-light p-2 pt-1 pb-1 mt-3"
             onClick={handleFormSubmit}
           >
             Let's talk
