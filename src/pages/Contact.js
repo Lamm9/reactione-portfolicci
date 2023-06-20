@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="text-center text-chalk p-0">
       <h1 className="display-3 mb-4 mt-5">Let's Get in Touch</h1>
-      <div className="row justify-content-center align-self-center">
+      <div className="row justify-content-center align-self-center mx-1">
         <p className="col-sm-6">
           I'm always looking for work and for opportunities to connect with
           other developers. Feel free to reach out to me on any of the platforms
@@ -16,9 +16,12 @@ export default function Contact() {
       <div className="row">
         <div className="col-sm">
           <div className="form-group m-4">
-            <h1 className="form-header display-6">How can I help?</h1>
+            <h1 className="form-header display-6 pb-3">How can I help?</h1>
             <div className="row justify-content-center">
-              <div className="col-sm-6 bg-dark p-4 rounded card-shadow-dark">
+              <div
+                id="contact-card"
+                className="col-sm-6 bg-dark p-4 mb-3 rounded card-shadow-dark"
+              >
                 <Form />
               </div>
             </div>

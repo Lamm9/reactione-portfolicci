@@ -7,7 +7,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
       <header>
         <div className="row">
           <div className="pt-1 bg-x-dark col-sm mb-0">
-            <h1 className="display-5 text-fancy" id="my-name">
+            <h1 className="display-5 text-yellow fw-bold" id="my-name">
               Harrison Lamm
             </h1>
           </div>

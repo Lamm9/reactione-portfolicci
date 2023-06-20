@@ -1,5 +1,6 @@
 #root {
   background-color: var(--dg);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
   --dp: #130d30;
   --violet: rgb(160, 18, 167);
   --shade: rgb(0, 0, 0, 0.7);
+  --chalk: rgb(192, 197, 206);
 }
 
 textarea {
@@ -61,6 +63,10 @@ textarea {
 
 .text-chalk {
   color: rgb(192, 197, 206) !important;
+}
+
+.text-yellow {
+  color: rgb(230, 154, 41) !important;
 }
 
 .text-fancy {
@@ -113,8 +119,8 @@ textarea {
 }
 
 .bg-ig {
-  background: linear-gradient(
-    90deg,
+  background: radial-gradient(
+    circle,
     rgb(137, 6, 170),
     rgb(207, 0, 104),
     rgb(255, 191, 17)

@@ -55,7 +55,7 @@ export default function Projects() {
       {projects.map((project) => {
         return (
           <div className="container" id={project.projName}>
-            <div className="card bg-x-dark m-3 mb-5 text-chalk card-shadow-dark">
+            <div className="card proj-card bg-x-dark m-3 mb-5 text-chalk rounded card-shadow-dark">
               <div className="row align-items-center">
                 <div className="col-sm-2 text-center">
                   <img
