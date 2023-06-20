@@ -51,8 +51,16 @@ textarea {
   background-color: var(--dg) !important;
 }
 
+.bg-yellow {
+  background-color: rgb(230, 154, 41) !important;
+}
+
 .text-orange {
   color: rgb(235, 142, 75) !important;
+}
+
+.text-chalk {
+  color: rgb(192, 197, 206) !important;
 }
 
 .text-fancy {
@@ -100,6 +108,10 @@ textarea {
   background-color: rgb(204, 131, 21) !important;
 }
 
+.bg-chalk {
+  background-color: rgb(192, 197, 206) !important;
+}
+
 .bg-ig {
   background: linear-gradient(
     90deg,
@@ -113,12 +125,11 @@ textarea {
 .nav-tabs .nav-link.active {
   background-color: rgb(56, 58, 63) !important;
   border-color: transparent !important;
-  border-radius: 10%;
+  border-radius: 30px;
 }
 
 .nav-tabs .nav-link:hover {
   border-color: transparent !important;
-  border-radius: 10%;
 }
 
 .nav-item a {
@@ -167,6 +178,11 @@ ul {
   border-radius: 25% !important;
 }
 
+/* #bio-img-div {
+  height: 300px;
+  align-items: center;
+} */
+
 #about-social {
   margin-bottom: 5.4%;
 }
@@ -198,6 +214,11 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+  #my-name {
+    font-size: 2.5rem;
+    font-weight: 450;
+  }
+
   #bio-img {
     border-radius: 0 30%;
     border: 0px !important;

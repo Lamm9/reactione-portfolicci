@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Pic from "../assets/bio-img.PNG";
 import Pic2 from "../assets/bio-img-2.png";
 import "../styles/App.css";
@@ -15,13 +15,29 @@ import "bootstrap/dist/css/bootstrap.css";
 library.add(faFontAwesome, faGithub, faLinkedin, faInstagram);
 
 export default function About() {
+  const [currentPage, handlePageChange] = React.useState("About");
 
   return (
     <div className="container-md text-center pb-5 bg-pitch">
       <div className="row mt-5 ms-1 me-1">
-        <h1 className="display-3 col-sm align-self-center">Hi, I'm Harrison</h1>
-        <div className="col-sm bg-split border rounded">
+        <h1 className="display-3 col-sm align-self-center text-chalk">
+          Hi, I'm Harrison
+        </h1>
+        <div id="bio-img-div" className="col-sm bg-split border rounded">
           <img src={Pic} alt="it's me!" id="bio-img" className="img-fluid" />
+        </div>
+      </div>
+
+      <div className="justify-content-center">
+        <div className="container-fluid my-5">
+          <div className="row">
+            <div className="col-sm text-chalk">
+              <h1 className="fw-light">
+                Let's build something{" "}
+                <span className="text-fancy fw-bolder">together</span>
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -34,7 +50,7 @@ export default function About() {
             id="bio-img-2"
           />
         </div>
-        <div className="col-sm">
+        <div className="col-sm text-chalk">
           <div className="card bg-transparent border-0 mt-5 pt-1">
             <h2 className="pt-3 display-6">About Me</h2>
             <p className="card-body">

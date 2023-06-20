@@ -4,7 +4,7 @@ import Form from "../components/Form";
 
 export default function Contact() {
   return (
-    <div className="text-center p-0">
+    <div className="text-center text-chalk p-0">
       <h1 className="display-3 mb-4 mt-5">Let's Get in Touch</h1>
       <div className="row justify-content-center align-self-center">
         <p className="col-sm-6">
@@ -30,7 +30,7 @@ export default function Contact() {
         <ul className="list-group col-lg-6 mb-5">
           <li className="ms-5 me-5 btn">
             <a
-              className="list-group-item bg-dark text-light btn-shadow-dark"
+              className="list-group-item bg-dark text-chalk btn-shadow-dark"
               href="https://github.com/Lamm9"
               target="_blank"
               rel="noopener noreferrer"

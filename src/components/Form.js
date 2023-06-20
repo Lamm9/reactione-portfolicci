@@ -31,32 +31,32 @@ export default function Form() {
     return (
       <div>
         <form>
-          <label className="text-light form-label" htmlFor="name">
+          <label className="text-chalk form-label" htmlFor="name">
             Your Name
           </label>
           <input
             type="text"
-            className="text-light form-control bg-x-dark border-0 mt-1"
+            className="text-chalk form-control bg-x-dark border-0 mt-1"
             id="name"
             onChange={handleInputChange}
             placeholder="Name"
           />
-          <label className="text-light form-label mt-1" htmlFor="email">
+          <label className="text-chalk form-label mt-1" htmlFor="email">
             Your Email
           </label>
           <input
             type="email"
-            className="text-light form-control bg-x-dark border-0"
+            className="text-chalk form-control bg-x-dark border-0"
             id="email"
             onChange={handleInputChange}
             placeholder="fantastic-client@bmail.com"
           />
-          <label className="text-light form-label mt-1" htmlFor="message">
+          <label className="text-chalk form-label mt-1" htmlFor="message">
             Comments
           </label>
           <textarea
             type="text"
-            className="text-light form-control bg-x-dark border-0"
+            className="text-chalk form-control bg-x-dark border-0"
             id="message"
             onChange={handleInputChange}
             rows="3"
@@ -64,7 +64,7 @@ export default function Form() {
           ></textarea>
           <button
             type="submit"
-            className="btn btn-form text-light p-2 pt-1 pb-1 mt-3"
+            className="btn btn-form text-chalk p-2 pt-1 pb-1 mt-3"
             onClick={handleFormSubmit}
           >
             Let's talk
