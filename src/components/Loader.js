@@ -4,9 +4,9 @@ import TextTransition from 'react-text-transition';
 
 export default function Loader() {
   const TEXTS = [
-    "a Web Developer",
-    "a Graphic Designer",
-    "a Digital Artist",
+    "a Developer",
+    "a Designer",
+    "an Artist",
     "here to help."
   ];
 
