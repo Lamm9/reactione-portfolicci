@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reactione-portfolicci/static/css/main.a2f70887.css",
-    "main.js": "/reactione-portfolicci/static/js/main.3da1db55.js",
-    "static/media/bio-img-2.png": "/reactione-portfolicci/static/media/bio-img-2.d5b39f1e1dceff98332d.png",
-    "static/media/bio-img.PNG": "/reactione-portfolicci/static/media/bio-img.78d15d87797399fe00a5.PNG",
+    "main.css": "/reactione-portfolicci/static/css/main.6ba0d8da.css",
+    "main.js": "/reactione-portfolicci/static/js/main.3abb646b.js",
     "static/media/BT-Display.png": "/reactione-portfolicci/static/media/BT-Display.243e95e015891355adb5.png",
+    "static/media/tan-shirt-pic.jpeg": "/reactione-portfolicci/static/media/tan-shirt-pic.5b914ce92f911b789bb7.jpeg",
+    "static/media/soccer-pic.jpg": "/reactione-portfolicci/static/media/soccer-pic.654ce94b131912d5e431.jpg",
     "index.html": "/reactione-portfolicci/index.html",
-    "main.a2f70887.css.map": "/reactione-portfolicci/static/css/main.a2f70887.css.map",
-    "main.3da1db55.js.map": "/reactione-portfolicci/static/js/main.3da1db55.js.map"
+    "main.6ba0d8da.css.map": "/reactione-portfolicci/static/css/main.6ba0d8da.css.map",
+    "main.3abb646b.js.map": "/reactione-portfolicci/static/js/main.3abb646b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2f70887.css",
-    "static/js/main.3da1db55.js"
+    "static/css/main.6ba0d8da.css",
+    "static/js/main.3abb646b.js"
   ]
 }
