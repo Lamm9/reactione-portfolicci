@@ -184,10 +184,16 @@ ul {
   border-radius: 25% !important;
 }
 
-/* #bio-img-div {
-  height: 300px;
-  align-items: center;
-} */
+#bio-img-2 {
+  height: 400px;
+  width: 400px;
+  border-radius: 55px;
+}
+
+#about-card {
+  border-radius: 40px;
+  
+}
 
 #about-social {
   margin-bottom: 5.4%;

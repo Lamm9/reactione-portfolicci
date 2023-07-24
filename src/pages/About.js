@@ -1,6 +1,6 @@
 import React from "react";
-import Pic from "../assets/bio-img.PNG";
-import Pic2 from "../assets/bio-img-2.png";
+import Pic from "../assets/tan-shirt-pic.jpeg";
+import Pic2 from "../assets/soccer-pic.jpg";
 import "../styles/App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -26,7 +26,7 @@ export default function About() {
             src={Pic}
             alt="it's me!"
             id="bio-img"
-            className="img-fluid bg-split border border-white border-5"
+            className="img-fluid"
           />
         </div>
       </div>
@@ -53,11 +53,11 @@ export default function About() {
         </div>
       </div>
 
-      <div className="row mt-5">
+      <div id="about-card" className="row mt-5">
         <div className="col-sm">
           <img
             src={Pic2}
-            className="img-fluid rounded"
+            className="img-fluid rounded my-4"
             alt="me again!"
             id="bio-img-2"
           />
@@ -83,7 +83,7 @@ export default function About() {
               href="https://github.com/Lamm9"
               rel="noopener noreferrer"
               target="_blank"
-              className="p-3"
+              className="p-3 mx-2"
             >
               <FontAwesomeIcon
                 icon={["fab", "github"]}
@@ -95,7 +95,7 @@ export default function About() {
               href="https://www.linkedin.com/in/harrison-lamm-458064249/"
               rel="noopener noreferrer"
               target="_blank"
-              className="p-3"
+              className="p-3 mx-2"
             >
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
@@ -107,7 +107,7 @@ export default function About() {
               href="https://www.instagram.com/itsharrisonlamm/"
               rel="noopener noreferrer"
               target="_blank"
-              className="p-3"
+              className="p-3 mx-2"
             >
               <FontAwesomeIcon
                 icon={["fab", "instagram"]}
